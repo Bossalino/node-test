@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
         });
       });
       res.render('index', {
-        title: 'These guy following ' + username + '?',
+        title: 'These guy following ' + username,
         user: username,
         followers: users
       });
