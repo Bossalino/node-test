@@ -1,0 +1,31 @@
+doctype html
+
+html
+  head
+    title= title
+    link(rel='stylesheet', type="text/css", href='main.css')
+    link(rel='stylesheet', type="text/css", href='https://fonts.googleapis.com/css?family=Roboto')
+    
+  body
+    div.body_wrapper
+      div.form_wrapper
+        h1 GitFollow
+        form#searchbar(method="post")
+          if (user)
+            input(type='text', name='username', value='#{user}')
+          else
+            input(type='text', name='username')
+          input(type='submit')
+
+      if (followers)
+        table
+          tbody
+            each follower in followers
+              tr
+                td
+                  img.pic(src="#{follower.avatar_url}")
+                td= follower.login
+                td= follower.url
+    
+    
+    

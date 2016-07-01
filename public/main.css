@@ -1,0 +1,75 @@
+:focus {
+outline: 0;
+}
+
+div.body_wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+h1 {
+  margin-bottom: 50px;
+  color: #0ab6ec;
+  text-align: center;
+  border: 1px solid #0ab6ec;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+form#searchbar {
+  text-align: center;
+}
+
+form#searchbar input[type="text"] {
+  border-radius: 20px;
+  border: 2px solid #867e7e;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+form#searchbar input[type="submit"] {
+  border-radius: 20px;
+  border: 1px solid #0ab6ec;
+  padding: 5px;
+  margin-right: 10px;
+  background: none;
+}
+form#searchbar input[type="submit"]:hover {
+  background: #0ab6ec;
+  color: #fff;
+  transition: 0.4s;
+}
+
+div.form_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+  padding: 10px;
+  width: 60%;
+}
+
+td {
+  border-bottom: 1px solid #867e7e;
+  padding: 5px 10px 5px 10px
+}
+
+tr:hover {
+  background: #0ab6ec;
+  color: #fff;
+  transition: 0.4s;
+}
+
+table, td:first-child {
+  border-top: 1px solid #867e7e;
+}
+
+.pic {
+  width: 50px;
+}
