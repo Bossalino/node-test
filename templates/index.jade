@@ -9,7 +9,7 @@ html
   body
     div.body_wrapper
       div.form_wrapper
-        h1 GitFollow
+        //- h1 GitFollow
         form#searchbar(method="post")
           if (user)
             input(type='text', name='username', value='#{user}')
@@ -19,6 +19,11 @@ html
 
       if (followers)
         table
+          thead
+            tr
+              th avatar
+              th login
+              th url
           tbody
             each follower in followers
               tr

@@ -1,4 +1,37 @@
-:focus {
+form#searchbar {
+  margin-bottom: 10px;
+}
+
+form#searchbar input[type="text"] {
+  margin-right: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th ,td {
+  border: 2px solid #ccc;
+  padding: 5px;
+  text-align: left;
+
+}
+
+img.pic {
+  width: 50px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+/*########OLD CODE########*/
+
+/*:focus {
 outline: 0;
 }
 
@@ -72,4 +105,4 @@ table, td:first-child {
 
 .pic {
   width: 50px;
-}
+}*/
