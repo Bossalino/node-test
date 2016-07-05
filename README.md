@@ -2,7 +2,7 @@
 
 ###Install Instructions
 
-1. Clone the repo: git@github.com:Bossalino/node-test.git
+1. Clone the repo: https://github.com/Bossalino/node-test.git
 2. Install packages: npm install
 3. Launch: node app.js
 4. Visit in your browser at: http://localhost:3000
