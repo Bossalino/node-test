@@ -4,6 +4,7 @@ form#searchbar {
 
 form#searchbar input[type="text"] {
   margin-right: 5px;
+  font-size: 13px;
 }
 
 table {
